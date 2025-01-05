@@ -5,8 +5,10 @@
 
 .header {
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.658), rgba(2, 2, 2, 0.521));
+    background-color: transparent;
     height: 60px;
+    position: fixed;
+    z-index: 100;
 }
 nav {
     display: flex;
@@ -41,7 +43,7 @@ nav ul li {
     display: inline;
     justify-content: space-between;
     /* margin-right: 25px; */
-    background-color: blueviolet;
+    background:linear-gradient(rgba(34, 61, 49, 0.1), rgba(45, 66, 95, 0.2), rgba(53, 90, 65, 0.09));
     color: whitesmoke;
     padding: 10px;
     font-size: 16px;
@@ -74,7 +76,7 @@ nav ul li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-weight: 750;
-    margin-top: 100px;
+    margin-top: 150px;
     font-size: 30px;
 }
 .body section input {
