@@ -43,7 +43,7 @@ nav ul li {
     display: inline;
     justify-content: space-between;
     /* margin-right: 25px; */
-    background:linear-gradient(rgba(34, 61, 49, 0.1),rgba(45, 66, 95, 0.2),rgba(53, 90, 65, 0.09));
+    background:linear-gradient(rgba(34, 61, 49, 0.2),rgba(45, 66, 95, 0.2),rgba(53, 90, 65, 0.1));
     color: whitesmoke;
     padding: 10px;
     font-size: 16px;
@@ -85,8 +85,8 @@ nav ul li {
     outline: none;
     padding: 10px;
     color: whitesmoke;
-    width: 550px;
-    margin-left: 400px;
+    width: 50%;
+    margin: auto;
     border-radius: 10px;
     margin-top: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
